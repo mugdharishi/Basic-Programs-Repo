@@ -42,7 +42,7 @@ public class FindUniqueAndDuplicate {
 			//j=> unique
 			for(int j=0;j<i;j++) {
 				if(arr[i]==unique[j]) {
-					
+
 					flagDup=false;
 					//k=>duplicate
 					for(int k=0;k<i;k++){

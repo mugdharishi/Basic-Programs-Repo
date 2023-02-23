@@ -1,0 +1,32 @@
+package problems.arrays;
+
+import java.util.Scanner;
+
+public class FindUniqueAndDuplicate {
+	public static int[] FindUnique(int[] arr) {
+		
+	}
+	
+	public static int[] FindDuplicate(int[] arr) {
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] arrNum ;
+		
+		System.out.println("Enter number of elements you want");
+		int num= sc.nextInt();
+		arrNum = new int[num];
+		
+		System.out.println("Enter "+ num + " elements : ");
+		for(int i=0;i<num;i++) {
+			arrNum[i]=sc.nextInt();
+		}
+		
+		System.out.println("Unique Elements: ");
+		int[] unique=findUnique(arr);
+	}
+	
+	
+}

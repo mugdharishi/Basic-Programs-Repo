@@ -1,0 +1,19 @@
+package problems.strings;
+
+import java.util.Scanner;
+
+public class CheckPalindrome {
+	
+	static void boolean checkPalindrome() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the number : ");
+		String str = sc.nextLine();
+		
+		boolean result = checkPalindrome(str);
+	}
+}

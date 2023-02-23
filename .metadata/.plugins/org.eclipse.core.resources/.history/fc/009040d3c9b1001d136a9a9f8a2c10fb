@@ -1,0 +1,24 @@
+package problems.numbers;
+
+import java.util.Scanner;
+
+public class ReverseNumber {
+	public static int reverseString(int string){
+		int temp;
+		
+		
+		String revString;
+		
+		return revString;
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the number : ");
+		int string = sc.nextInt();
+		
+		int revString = reverseNumber(string);
+		System.out.println("Reverse Number : "+revString);
+	}
+}

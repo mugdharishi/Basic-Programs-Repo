@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+F:\HomeCodePractice\Logical Programs\.metadata\.plugins\org.eclipse.jdt.core
+623334914.index
+3467841226.index
+1865797976.index

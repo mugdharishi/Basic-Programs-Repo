@@ -1,0 +1,17 @@
+package problems.numbers;
+
+public class ReverseNumber {
+	public static int reverseNumber(int num){
+		if(num<0) {
+			num = -num;
+		}
+		int temp=num;
+		int revNum=0;
+		
+		while(temp>0) {
+			revNum=temp%10;
+			temp=temp/10;
+		}
+		return revNum;
+	}
+}
